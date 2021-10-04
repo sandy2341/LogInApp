@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.iwayq</groupId>
-	<artifactId>iwayQApp</artifactId>
-	<version>3.0-RELEASE</version>
+	<artifactId>LIA</artifactId>
+	<version>1.0-RELEASE</version>
 	<packaging>war</packaging>
 	<name>iwayQApp</name>
 	<description>iwayQ DevOps project for Spring Boot</description>
