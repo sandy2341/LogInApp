@@ -12,7 +12,7 @@
 	<artifactId>LIA</artifactId>
 	<version>1.0-RELEASE</version>
 	<packaging>war</packaging>
-	<name>iwayQApp</name>
+	<name>ksr</name>
 	<description>iwayQ DevOps project for Spring Boot</description>
 
 	<properties>
