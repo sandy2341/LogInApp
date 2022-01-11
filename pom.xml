@@ -16,7 +16,9 @@
 	<description>k8s DevOps project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>		
+		<java.version>1.8</java.version>
+		<sonar.organization>sandy2341</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
                 
 	</properties>
 
