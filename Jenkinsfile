@@ -14,7 +14,7 @@ pipeline {
 	stage ('Build')  {
 	    steps {
         dir('LogInApp'){
-            sh "mvn package"
+            sh "/opt/mvnf/bin/mvn package"
           }
         }    
    }
