@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-  maven 'mvnf'
+  maven 'maven'
   }
     stages {
 
@@ -23,7 +23,7 @@ pipeline {
     steps {
       withSonarQubeEnv('sonar') {           
 				{
-          sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ksrproject123'
+          sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ksrproject01'
         }
     }
     }
